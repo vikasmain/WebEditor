@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.webeditor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+    <activity android:label="@string/app_name" android:name=".ui.InputActivity">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+
+    <activity android:label="@string/app_name" android:name=".ui.LaunchActivity">
+
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.SEND"/>
+
+    <category android:name="android.intent.category.DEFAULT"/>
+
+    <data android:mimeType="text/*"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:theme="@style/AppBaseTheme.NoActionBar" android:name=".ui.PreviewActivity"/>
+        <meta-data
+        android:name="io.fabric.ApiKey"
+        android:value="fb56ecb445ffaade72c279843521b2dd340f25aa"
+        />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <!-- Base application theme. -->
+
+
+
+    <style parent="Theme.AppCompat.Light.DarkActionBar" name="AppBaseTheme">
+
+    <!-- Customize your theme here. -->
+
+
+    <item name="colorPrimary">@color/colorPrimary</item>
+
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    <item name="colorAccent">@color/colorAccent</item>
+
+    <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+</style>
+
+
+    <style name="AppBaseTheme.NoActionBar">
+
+    <item name="windowActionBar">false</item>
+
+    <item name="windowNoTitle">true</item>
+
+</style>
+
+
+    <style name="TagText">
+
+    <item name="android:textColor">@color/white</item>
+
+    <item name="android:gravity">center</item>
+
+    <item name="android:paddingLeft">10dp</item>
+
+    <item name="android:paddingRight">10dp</item>
+
+    <item name="android:textSize">16sp</item>
+
+    <item name="android:background">@drawable/app_transparent_dark</item>
+
+</style>
+
+</resources>

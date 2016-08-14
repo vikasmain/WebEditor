@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="@color/white" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar android:background="@color/white" android:layout_height="wrap_content" android:layout_width="match_parent" android:minHeight="?attr/actionBarSize" android:elevation="5dp" android:id="@+id/toolbar"/>
+
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/scrollView" android:layout_below="@id/toolbar">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:layout_marginRight="70dp" android:layout_marginLeft="70dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/short_description" android:layout_marginRight="8dp" android:layout_marginLeft="8dp" android:textSize="16sp" android:textColor="@color/black" android:lineSpacingMultiplier="1.5" android:gravity="center" android:layout_marginTop="30dp" android:layout_marginBottom="30dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/description" android:layout_marginRight="8dp" android:layout_marginLeft="8dp" android:textColor="@color/black" android:lineSpacingMultiplier="1.5" android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
+
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+    <android.support.design.widget.FloatingActionButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/fab" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" app:backgroundTint="@color/colorAccent" android:src="@drawable/ic_save" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

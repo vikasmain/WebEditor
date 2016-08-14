@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_height="match_parent" android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/font" android:id="@+id/font"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/font_end" android:id="@+id/font_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/br" android:id="@+id/br"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/b" android:id="@+id/b"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/b_end" android:id="@+id/b_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/i" android:id="@+id/i"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/i_end" android:id="@+id/i_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/u" android:id="@+id/u"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/u_end" android:id="@+id/u_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/a" android:id="@+id/a"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/a_end" android:id="@+id/a_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h1" android:id="@+id/h1"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h1_end" android:id="@+id/h1_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h2" android:id="@+id/h2"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h2_end" android:id="@+id/h2_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h3" android:id="@+id/h3"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h3_end" android:id="@+id/h3_end"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h4" android:id="@+id/h4"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="wrap_content" style="@style/TagText" android:text="@string/h4_end" android:id="@+id/h4_end"/>
+
+</LinearLayout>
